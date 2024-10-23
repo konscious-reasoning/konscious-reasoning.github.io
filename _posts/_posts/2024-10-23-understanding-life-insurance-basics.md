@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Life Insurance: Your Complete Beginner's Guide"
-date: 2024-10-23
+date: 2024-10-23 12:00:00 +0000
 categories: insurance
 ---
 
