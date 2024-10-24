@@ -505,3 +505,62 @@ body {
     }
 }
 
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #f4f4f4;
+}
+
+.why-choose-us-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.choose-item {
+    background-color: #2a2a2a;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.choose-item:hover {
+    transform: translateY(-5px);
+}
+
+.choose-item h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #00aaff;
+}
+
+.choose-item p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .why-choose-us-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .choose-item {
+        width: 23%; /* Four choose items in a row */
+    }
+}
