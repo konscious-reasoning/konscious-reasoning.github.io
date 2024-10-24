@@ -597,3 +597,42 @@ body {
 .btn-cta:hover {
     background-color: #0088cc; /* Darker shade on hover */
 }
+
+/* Educational Section */
+.educational {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+    padding: 80px 20px; /* Padding for spacing */
+    text-align: center; /* Centered text */
+}
+
+.educational-content h2 {
+    font-size: 36px; /* Large heading */
+    margin-bottom: 30px; /* Spacing below the heading */
+    color: #f4f4f4; /* Light color for heading */
+}
+
+.educational-content p {
+    font-size: 20px; /* Medium paragraph text */
+    margin-bottom: 40px; /* Spacing below the paragraph */
+    line-height: 1.6; /* Line height for readability */
+}
+
+.resource-item {
+    background-color: #2a2a2a; /* Darker card background */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    margin: 20px 0; /* Margin for spacing between items */
+}
+
+.resource-item h3 {
+    font-size: 24px; /* Heading size for resource items */
+    margin-bottom: 10px; /* Spacing below the heading */
+    color: #00aaff; /* Highlight color for headings */
+}
+
+.resource-item p {
+    font-size: 18px; /* Smaller paragraph text */
+    color: #cccccc; /* Lighter text color for paragraphs */
+}
