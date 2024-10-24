@@ -636,3 +636,96 @@ body {
     font-size: 18px; /* Smaller paragraph text */
     color: #cccccc; /* Lighter text color for paragraphs */
 }
+
+/* Footer Section */
+.footer {
+    background-color: #0d0d0d; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 60px 20px; /* Padding for the footer */
+    text-align: center; /* Centered text */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00aaff; /* Accent color for headings */
+}
+
+.footer-column p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cccccc; /* Lighter gray for paragraph text */
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #00aaff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #0088cc; /* Darker shade on hover */
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid #333; /* Top border for separation */
+    padding-top: 20px;
+    font-size: 14px;
+    color: #cccccc; /* Lighter color for copyright */
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links li a {
+    color: #00aaff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links li a:hover {
+    color: #0088cc; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-column {
+        margin-bottom: 0;
+    }
+}
