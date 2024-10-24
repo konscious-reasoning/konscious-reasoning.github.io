@@ -564,3 +564,36 @@ body {
         width: 23%; /* Four choose items in a row */
     }
 }
+
+/* Call to Action Section */
+.cta {
+    background-color: #0d0d0d; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+    padding: 80px 20px; /* Padding for spacing */
+    text-align: center; /* Centered text */
+}
+
+.cta-content h2 {
+    font-size: 36px; /* Large heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.cta-content p {
+    font-size: 20px; /* Medium paragraph text */
+    margin-bottom: 30px; /* Spacing below the paragraph */
+    line-height: 1.6; /* Line height for readability */
+}
+
+.btn-cta {
+    background-color: #00aaff; /* Button color */
+    color: #ffffff; /* White text on button */
+    padding: 15px 30px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* No underline on the link */
+    font-size: 18px; /* Button text size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-cta:hover {
+    background-color: #0088cc; /* Darker shade on hover */
+}
