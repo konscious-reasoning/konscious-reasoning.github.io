@@ -33,3 +33,22 @@ body {
     border-color: #ffca28;
 }
 
+.services h2, .policy-review h2 {
+    color: #00695c;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-title {
+    color: #004d40;
+}
+
+.btn-primary {
+    background-color: #ffca28;
+    border-color: #ffca28;
+    color: #004d40;
+}
+
+.policy-review {
+    background-color: #f0f0f0;
+}
