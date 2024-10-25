@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #004d40;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.hero {
+    background-color: #00695c;
+    color: #fff;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.btn-primary {
+    background-color: #ffca28;
+    border-color: #ffca28;
+}
+
